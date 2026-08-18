@@ -29,7 +29,7 @@ export function App() {
     async function loadData() {
       try {
         const [albumRes, lyricsRes] = await Promise.all([
-          fetch(`/api/album?t=${Date.now()}`),
+          fetch(`/data/album.json?t=${Date.now()}`),
           fetch(`/data/lyrics.json?t=${Date.now()}`)
         ]);
         const album = await albumRes.json();

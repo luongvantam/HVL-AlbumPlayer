@@ -8,7 +8,7 @@
 
 Giao diện ứng dụng được thiết kế tối giản mang phong cách dark brutalist lấy cảm hứng từ nhận diện thương hiệu **[N0L4B3L](https://n0l4b3l.com/)**.
 
-🌐 **Trải nghiệm trực tuyến**: [https://hvl-albumleak.pages.dev](https://hvl-albumleak.pages.dev)
+🌐 **Trải nghiệm trực tuyến**: [https://hvl-albumleak.vercel.app](https://hvl-albumleak.vercel.app)
 
 </div>
 
