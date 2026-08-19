@@ -8,7 +8,7 @@
     {
       "id": 1,
       "filename": "01. Elegie.flac",
-      "audioUrl": "/music/01. Elegie.mp3",
+      "audioUrl": "/music/Track01.mp3",
       "title": "Elegie",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -26,7 +26,7 @@
     {
       "id": 2,
       "filename": "02. IDK.flac",
-      "audioUrl": "/music/02. IDK.mp3",
+      "audioUrl": "/music/Track02.mp3",
       "title": "IDK",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -44,7 +44,7 @@
     {
       "id": 3,
       "filename": "03. Wtf Bby I_m Lit.flac",
-      "audioUrl": "/music/03. Wtf Bby I_m Lit.mp3",
+      "audioUrl": "/music/Track03.mp3",
       "title": "Wtf Bby I'm Lit",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -62,7 +62,7 @@
     {
       "id": 4,
       "filename": "04. Anh Không Muốn Nó Dễ Dàng.flac",
-      "audioUrl": "/music/04. Anh Không Muốn Nó Dễ Dàng.mp3",
+      "audioUrl": "/music/Track04.mp3",
       "title": "Anh Không Muốn Nó Dễ Dàng",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -80,7 +80,7 @@
     {
       "id": 5,
       "filename": "05. Baby (feat. marzuz).flac",
-      "audioUrl": "/music/05. Baby (feat. marzuz).mp3",
+      "audioUrl": "/music/Track05.mp3",
       "title": "Baby",
       "artist": "RPT MCK (feat. marzuz)",
       "album": "HVL",
@@ -98,7 +98,7 @@
     {
       "id": 6,
       "filename": "06. Yêu Anh Giết Anh.flac",
-      "audioUrl": "/music/06. Yêu Anh Giết Anh.mp3",
+      "audioUrl": "/music/Track06.mp3",
       "title": "Yêu Anh Giết Anh",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -116,7 +116,7 @@
     {
       "id": 7,
       "filename": "07. Mắt Môi Tay Chân (feat. Tage).flac",
-      "audioUrl": "/music/07. Mắt Môi Tay Chân (feat. Tage).mp3",
+      "audioUrl": "/music/Track07.mp3",
       "title": "Mắt Môi Tay Chân",
       "artist": "RPT MCK (feat. Tage)",
       "album": "HVL",
@@ -134,7 +134,7 @@
     {
       "id": 8,
       "filename": "08. Đao Của Anh Vừa.flac",
-      "audioUrl": "/music/08. Đao Của Anh Vừa.mp3",
+      "audioUrl": "/music/Track08.mp3",
       "title": "Đao Của Anh Vừa",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -152,7 +152,7 @@
     {
       "id": 9,
       "filename": "09. Là Gì Của Nhau.flac",
-      "audioUrl": "/music/09. Là Gì Của Nhau.mp3",
+      "audioUrl": "/music/Track09.mp3",
       "title": "Là Gì Của Nhau",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -170,7 +170,7 @@
     {
       "id": 10,
       "filename": "10. Night In Prague.flac",
-      "audioUrl": "/music/10. Night In Prague.mp3",
+      "audioUrl": "/music/Track10.mp3",
       "title": "Night In Prague",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -188,7 +188,7 @@
     {
       "id": 11,
       "filename": "11. Một Cái Ôm.flac",
-      "audioUrl": "/music/11. Một Cái Ôm.mp3",
+      "audioUrl": "/music/Track11.mp3",
       "title": "Một Cái Ôm",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -206,7 +206,7 @@
     {
       "id": 12,
       "filename": "12. Liệm.flac",
-      "audioUrl": "/music/12. Liệm.mp3",
+      "audioUrl": "/music/Track12.mp3",
       "title": "Liệm",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -224,7 +224,7 @@
     {
       "id": 13,
       "filename": "13. Nếu Như Ta Chẳng Còn (feat. AAP Ướt Mi).flac",
-      "audioUrl": "/music/13. Nếu Như Ta Chẳng Còn (feat. AAP Ướt Mi).mp3",
+      "audioUrl": "/music/Track13.mp3",
       "title": "Nếu Như Ta Chẳng Còn",
       "artist": "RPT MCK (feat. A$AP Ướt Mi)",
       "album": "HVL",
@@ -242,7 +242,7 @@
     {
       "id": 14,
       "filename": "14. Ai Mới Là Kẻ Xấu Xa.flac",
-      "audioUrl": "/music/14. Ai Mới Là Kẻ Xấu Xa.mp3",
+      "audioUrl": "/music/Track14.mp3",
       "title": "Ai Mới Là Kẻ Xấu Xa",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -260,7 +260,7 @@
     {
       "id": 15,
       "filename": "15. Slippery (feat. Tùng Dương).flac",
-      "audioUrl": "/music/15. Slippery (feat. Tùng Dương).mp3",
+      "audioUrl": "/music/Track15.mp3",
       "title": "Slippery",
       "artist": "RPT MCK (feat. Tùng Dương)",
       "album": "HVL",
@@ -278,7 +278,7 @@
     {
       "id": 16,
       "filename": "16. Intenpol.flac",
-      "audioUrl": "/music/16. Intenpol.mp3",
+      "audioUrl": "/music/Track16.mp3",
       "title": "Intenpol",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -296,7 +296,7 @@
     {
       "id": 17,
       "filename": "17. Tây Thi.flac",
-      "audioUrl": "/music/17. Tây Thi.mp3",
+      "audioUrl": "/music/Track17.mp3",
       "title": "Tây Thi",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -314,7 +314,7 @@
     {
       "id": 18,
       "filename": "18. Hút và Hút.flac",
-      "audioUrl": "/music/18. Hút và Hút.mp3",
+      "audioUrl": "/music/Track18.mp3",
       "title": "Hút và Hút",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -332,7 +332,7 @@
     {
       "id": 19,
       "filename": "19. Dưa Chua.flac",
-      "audioUrl": "/music/19. Dưa Chua.mp3",
+      "audioUrl": "/music/Track19.mp3",
       "title": "Dưa Chua",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -350,7 +350,7 @@
     {
       "id": 20,
       "filename": "20. Xa Xôi (feat. Obito).flac",
-      "audioUrl": "/music/20. Xa Xôi (feat. Obito).mp3",
+      "audioUrl": "/music/Track20.mp3",
       "title": "Xa Xôi",
       "artist": "RPT MCK (feat. Obito)",
       "album": "HVL",
@@ -368,7 +368,7 @@
     {
       "id": 21,
       "filename": "21. Che Phủ.flac",
-      "audioUrl": "/music/21. Che Phủ.mp3",
+      "audioUrl": "/music/Track21.mp3",
       "title": "Che Phủ",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -386,7 +386,7 @@
     {
       "id": 22,
       "filename": "22. Oanh M = Thuoc.flac",
-      "audioUrl": "/music/22. Oanh M = Thuoc.mp3",
+      "audioUrl": "/music/Track22.mp3",
       "title": "Oanh M = Thuoc",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -404,7 +404,7 @@
     {
       "id": 23,
       "filename": "23. Ghet Xog Lai Thik.flac",
-      "audioUrl": "/music/23. Ghet Xog Lai Thik.mp3",
+      "audioUrl": "/music/Track23.mp3",
       "title": "Ghet Xog Lai Thik",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -422,7 +422,7 @@
     {
       "id": 24,
       "filename": "24. Nhìn Kẻ Thù Của Tao.flac",
-      "audioUrl": "/music/24. Nhìn Kẻ Thù Của Tao.mp3",
+      "audioUrl": "/music/Track24.mp3",
       "title": "Nhìn Kẻ Thù Của Tao",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -440,7 +440,7 @@
     {
       "id": 25,
       "filename": "25. Envy (feat. THANHDRAW).flac",
-      "audioUrl": "/music/25. Envy (feat. THANHDRAW).mp3",
+      "audioUrl": "/music/Track25.mp3",
       "title": "Envy",
       "artist": "RPT MCK (feat. THANHDRAW)",
       "album": "HVL",
@@ -458,7 +458,7 @@
     {
       "id": 26,
       "filename": "26. Cảm Ơn.flac",
-      "audioUrl": "/music/26. Cảm Ơn.mp3",
+      "audioUrl": "/music/Track26.mp3",
       "title": "Cảm Ơn",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -476,7 +476,7 @@
     {
       "id": 27,
       "filename": "27. Không Cần Lo Cho Tao.flac",
-      "audioUrl": "/music/27. Không Cần Lo Cho Tao.mp3",
+      "audioUrl": "/music/Track27.mp3",
       "title": "Không Cần Lo Cho Tao",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -494,7 +494,7 @@
     {
       "id": 28,
       "filename": "28. Huh (feat. RPT Orijinn & THANHDRAW).flac",
-      "audioUrl": "/music/28. Huh (feat. RPT Orijinn & THANHDRAW).mp3",
+      "audioUrl": "/music/Track28.mp3",
       "title": "Huh",
       "artist": "RPT MCK (feat. RPT Orijinn & THANHDRAW)",
       "album": "HVL",
@@ -512,7 +512,7 @@
     {
       "id": 29,
       "filename": "29. Nguyễn Văn Mười.flac",
-      "audioUrl": "/music/29. Nguyễn Văn Mười.mp3",
+      "audioUrl": "/music/Track29.mp3",
       "title": "Nguyễn Văn Mười",
       "artist": "RPT MCK",
       "album": "HVL",
@@ -530,7 +530,7 @@
     {
       "id": 30,
       "filename": "30. Thịt Lợn.flac",
-      "audioUrl": "/music/30. Thịt Lợn.mp3",
+      "audioUrl": "/music/Track30.mp3",
       "title": "Thịt Lợn",
       "artist": "RPT MCK",
       "album": "HVL",
