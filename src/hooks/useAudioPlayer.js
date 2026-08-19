@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
   const audioRef = useRef(null);
   const isInitialMount = useRef(true);
+  const pendingSeekRef = useRef(null);
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -17,6 +18,7 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
     if (!audioRef.current || !currentTrack) return;
     const audio = audioRef.current;
 
+    pendingSeekRef.current = null;
     audio.src = currentTrack.audioUrl;
     audio.load();
     setCurrentTime(0);
@@ -58,8 +60,24 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
       setCurrentTime(audio.currentTime);
     };
 
+    const applyPendingSeek = () => {
+      if (pendingSeekRef.current !== null) {
+        try {
+          audio.currentTime = pendingSeekRef.current;
+        } catch (err) {
+          console.warn('Pending seek failed:', err);
+        }
+        pendingSeekRef.current = null;
+      }
+    };
+
     const handleLoadedMetadata = () => {
       setDuration(audio.duration || currentTrack?.duration || 0);
+      applyPendingSeek();
+    };
+
+    const handleCanPlay = () => {
+      applyPendingSeek();
     };
 
     const handleProgress = () => {
@@ -83,12 +101,14 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
 
     audio.addEventListener('timeupdate', handleTimeUpdate);
     audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+    audio.addEventListener('canplay', handleCanPlay);
     audio.addEventListener('progress', handleProgress);
     audio.addEventListener('ended', handleEnded);
 
     return () => {
       audio.removeEventListener('timeupdate', handleTimeUpdate);
       audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      audio.removeEventListener('canplay', handleCanPlay);
       audio.removeEventListener('progress', handleProgress);
       audio.removeEventListener('ended', handleEnded);
     };
@@ -118,12 +138,28 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
 
   const seek = useCallback((time, autoPlay = true) => {
     if (!audioRef.current) return;
-    const safeTime = Math.max(0, Math.min(audioRef.current.duration || 9999, Number(time)));
-    audioRef.current.currentTime = safeTime;
+    const audio = audioRef.current;
+    const maxDur = (audio.duration && !isNaN(audio.duration) && isFinite(audio.duration))
+      ? audio.duration
+      : (currentTrack?.duration || 9999);
+    const safeTime = Math.max(0, Math.min(maxDur, Number(time)));
+
     setCurrentTime(safeTime);
 
+    if (audio.readyState >= 1) {
+      try {
+        audio.currentTime = safeTime;
+        pendingSeekRef.current = null;
+      } catch (err) {
+        console.warn('Direct seek error, deferred to ready:', err);
+        pendingSeekRef.current = safeTime;
+      }
+    } else {
+      pendingSeekRef.current = safeTime;
+    }
+
     if (autoPlay && !isMvOpen) {
-      const playPromise = audioRef.current.play();
+      const playPromise = audio.play();
       if (playPromise !== undefined) {
         playPromise
           .then(() => setIsPlaying(true))
@@ -132,7 +168,7 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
           });
       }
     }
-  }, [isMvOpen]);
+  }, [currentTrack, isMvOpen]);
 
   const setVolume = useCallback((val) => {
     if (!audioRef.current) return;
