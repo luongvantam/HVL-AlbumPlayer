@@ -67,15 +67,18 @@ export function LyricsPanel({ lyrics, currentTime, onSeek }) {
   }, [lyrics]);
 
   const handleLineClick = (line, idx) => {
+    if (!line || typeof line.time !== 'number' || isNaN(line.time)) return;
     setClickedIndex(idx);
     isUserInteractingRef.current = true;
     clearTimeout(interactTimeoutRef.current);
     interactTimeoutRef.current = setTimeout(() => {
       isUserInteractingRef.current = false;
-    }, 2500);
+    }, 2000);
 
     scrollToLine(idx, 'smooth');
-    onSeek(line.time);
+    if (typeof onSeek === 'function') {
+      onSeek(line.time, true);
+    }
   };
 
   if (!hasLines) {
@@ -113,6 +116,14 @@ export function LyricsPanel({ lyrics, currentTime, onSeek }) {
               key={idx}
               className={`lyric-line ${stateClass} ${isIntro ? 'intro-line' : ''}`}
               onClick={() => handleLineClick(line, idx)}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  handleLineClick(line, idx);
+                }
+              }}
             >
               {isIntro ? (
                 <span className="intro-badge-wrapper">

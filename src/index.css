@@ -94,6 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
   padding: 10px 32px 14px 32px;
   position: relative;
@@ -357,8 +358,8 @@ button {
   font-weight: 500;
   color: var(--text-muted);
   cursor: pointer;
-  transition: color 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease;
-  padding: 3px 0;
+  transition: color 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease, transform 0.15s ease;
+  padding: 4px 0;
   letter-spacing: -0.01em;
   width: 100%;
   max-width: 100%;
@@ -367,10 +368,18 @@ button {
   overflow-wrap: break-word;
   box-sizing: border-box;
   transform: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.08);
+  touch-action: manipulation;
+  outline: none;
 }
 
 .lyric-line:hover {
-  color: var(--text-secondary);
+  color: #ffffff;
+}
+
+.lyric-line:active {
+  transform: scale(0.99);
+  color: #ffffff;
 }
 
 .lyric-line.active {
@@ -2128,7 +2137,9 @@ button {
   }
 
   .app-container {
-    padding: 6px 12px 10px 12px;
+    height: 100vh;
+    height: 100dvh;
+    padding: max(8px, env(safe-area-inset-top, 8px)) 12px max(18px, env(safe-area-inset-bottom, 16px)) 12px;
   }
 
   /* Mobile Header */
@@ -2355,11 +2366,12 @@ button {
     justify-content: center;
   }
 
-  /* Mobile Player Bar - Centered 1-column layout */
+  /* Mobile Player Bar - Centered 1-column layout with safe area elevation */
   .player-bar {
     grid-template-columns: 1fr;
     height: auto;
-    padding: 6px 0 4px 0;
+    padding: 8px 0 max(10px, env(safe-area-inset-bottom, 8px)) 0;
+    margin-bottom: max(6px, env(safe-area-inset-bottom, 4px));
     align-items: center;
   }
 

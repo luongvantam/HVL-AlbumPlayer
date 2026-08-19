@@ -116,12 +116,23 @@ export function useAudioPlayer(currentTrack, onEnded, isMvOpen = false) {
     else play();
   }, [isPlaying, play, pause]);
 
-  const seek = useCallback((time) => {
+  const seek = useCallback((time, autoPlay = true) => {
     if (!audioRef.current) return;
-    const safeTime = Math.max(0, Math.min(audioRef.current.duration || 9999, time));
+    const safeTime = Math.max(0, Math.min(audioRef.current.duration || 9999, Number(time)));
     audioRef.current.currentTime = safeTime;
     setCurrentTime(safeTime);
-  }, []);
+
+    if (autoPlay && !isMvOpen) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => setIsPlaying(true))
+          .catch((err) => {
+            console.warn('Playback blocked / error on seek:', err);
+          });
+      }
+    }
+  }, [isMvOpen]);
 
   const setVolume = useCallback((val) => {
     if (!audioRef.current) return;
