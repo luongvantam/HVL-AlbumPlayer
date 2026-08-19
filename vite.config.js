@@ -135,8 +135,21 @@ function mediaStreamPlugin() {
   };
 }
 
+function excludeLargeAssetsPlugin() {
+  return {
+    name: 'exclude-large-assets',
+    closeBundle() {
+      const distMv = path.resolve(__dirname, 'dist', 'mv');
+      if (fs.existsSync(distMv)) {
+        fs.rmSync(distMv, { recursive: true, force: true });
+        console.log('✓ Cleaned dist/mv (>25MB assets) for Cloudflare Pages 25MB limit compatibility');
+      }
+    }
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), mediaStreamPlugin()],
+  plugins: [react(), mediaStreamPlugin(), excludeLargeAssetsPlugin()],
   server: {
     port: 3000,
     host: true

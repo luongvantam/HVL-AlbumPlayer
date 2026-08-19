@@ -35,7 +35,18 @@ export function App() {
         const album = await albumRes.json();
         const lyrics = await lyricsRes.json();
 
-        setTracks(album.tracks || []);
+        const isLocal = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+        const processedTracks = (album.tracks || []).map(track => {
+          if (track.videoUrl && !track.videoUrl.startsWith('http') && !isLocal) {
+            return {
+              ...track,
+              videoUrl: `https://raw.githubusercontent.com/luongvantam/HVL-AlbumPlayer/main/public${track.videoUrl}`
+            };
+          }
+          return track;
+        });
+
+        setTracks(processedTracks);
         setLyricsData(lyrics || {});
       } catch (err) {
         console.error('Failed to load album data:', err);
