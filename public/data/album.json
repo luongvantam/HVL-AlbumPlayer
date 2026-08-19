@@ -271,7 +271,7 @@
       "coverUrl": "/artwork/Track15.webp",
       "video": "SLIPPERY.mp4",
       "videoUrl": "/mv/Track15_MV.mp4",
-      "isSquare": false,
+      "isSquare": true,
       "width": 2088,
       "height": 2011
     },

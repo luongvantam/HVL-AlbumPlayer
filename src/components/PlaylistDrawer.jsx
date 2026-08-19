@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { X, Search } from 'lucide-react';
+import { X, Search, Info, ExternalLink } from 'lucide-react';
 
 function formatTime(seconds) {
   if (isNaN(seconds) || seconds < 0) return '00:00';
@@ -21,7 +21,7 @@ export function PlaylistDrawer({
     if (!tracks) return [];
     const q = search.trim().toLowerCase();
     if (!q) return tracks;
-    return tracks.filter(t => 
+    return tracks.filter(t =>
       t.title.toLowerCase().includes(q) ||
       t.artist.toLowerCase().includes(q) ||
       t.filename.toLowerCase().includes(q)
@@ -80,6 +80,20 @@ export function PlaylistDrawer({
             </div>
           );
         })}
+      </div>
+
+      <div className="drawer-footer">
+        <a
+          href="https://github.com/luongvantam/HVL-AlbumPlayer/blob/main/README.md"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="drawer-info-btn"
+          title="Xem thông tin chi tiết website"
+        >
+          <Info size={15} />
+          <span>INFO</span>
+          <ExternalLink size={13} className="info-ext-icon" />
+        </a>
       </div>
     </aside>
   );

@@ -72,6 +72,12 @@ body {
   background-size: cover;
 }
 
+/* Track 09: Prioritize character head at the top */
+.bg-cover.is-track-9 {
+  background-size: cover;
+  background-position: center top !important;
+}
+
 /* 1:1 Square artworks scaled centered without extreme cropping */
 .bg-cover.is-square {
   background-size: contain;
@@ -80,11 +86,68 @@ body {
   margin: auto;
 }
 
+/* Track 16: Balanced medium size */
+.bg-cover.is-square-md {
+  background-size: contain;
+  max-width: 88vh;
+  max-height: 88vh;
+  margin: auto;
+}
+
+/* Track 19: Scaled up large square */
+.bg-cover.is-square-lg {
+  background-size: contain;
+  max-width: 98vh;
+  max-height: 98vh;
+  margin: auto;
+}
+
+/* Track 29: Full height touching bottom border */
+.bg-cover.is-square-track29 {
+  background-size: contain;
+  background-position: center bottom;
+  max-width: 100vh;
+  max-width: 100dvh;
+  max-height: 100vh;
+  max-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
+  top: auto;
+  bottom: 0;
+  margin: 0 auto;
+}
+
 .bg-overlay {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.62);
   z-index: -2;
+  transition: background 0.3s ease;
+}
+
+/* Track-specific body background themes */
+body.theme-white {
+  background-color: #ffffff !important;
+}
+
+body.theme-white .bg-overlay {
+  background: rgba(0, 0, 0, 0.40);
+}
+
+body.theme-track-8 {
+  background-color: #e3f0f1 !important;
+}
+
+body.theme-track-8 .bg-overlay {
+  background: rgba(0, 0, 0, 0.40);
+}
+
+body.theme-red-11 {
+  background-color: #ff0100 !important;
+}
+
+body.theme-red-11 .bg-overlay {
+  background: rgba(0, 0, 0, 0.45);
 }
 
 
@@ -1087,6 +1150,42 @@ button {
 .track-dur-col {
   font-size: 0.72rem;
   color: var(--text-muted);
+}
+
+.drawer-footer {
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawer-info-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-secondary);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.drawer-info-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.info-ext-icon {
+  opacity: 0.6;
 }
 
 /* ==========================================================================
@@ -2181,11 +2280,17 @@ button {
     z-index: -3;
   }
 
-  .bg-cover.is-square {
+  .bg-cover.is-square,
+  .bg-cover.is-square-track29,
+  .bg-cover.is-square-lg {
     max-width: 100vw;
     max-height: 42vh;
+    height: 42vh;
     background-size: contain;
     background-position: top center;
+    top: 0;
+    bottom: auto;
+    margin: 0;
   }
 
   .bg-overlay {

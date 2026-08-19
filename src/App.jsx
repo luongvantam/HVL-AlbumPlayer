@@ -53,6 +53,28 @@ export function App() {
     }
   }, [currentTrack?.id, reloadLyrics]);
 
+  useEffect(() => {
+    document.body.classList.remove('theme-white', 'theme-track-8', 'theme-red-11');
+    if (currentTrack?.id === 8) {
+      document.body.classList.add('theme-track-8');
+    } else if ([27, 28, 29, 30].includes(currentTrack?.id)) {
+      document.body.classList.add('theme-white');
+    } else if (currentTrack?.id === 11) {
+      document.body.classList.add('theme-red-11');
+    }
+    return () => {
+      document.body.classList.remove('theme-white', 'theme-track-8', 'theme-red-11');
+    };
+  }, [currentTrack?.id]);
+
+  const coverScaleClass = useMemo(() => {
+    if (currentTrack?.id === 9) return 'is-rect is-track-9';
+    if (currentTrack?.id === 29) return 'is-square is-square-track29';
+    if (currentTrack?.id === 19) return 'is-square is-square-lg';
+    if (currentTrack?.isSquare || currentTrack?.id === 15) return 'is-square';
+    return 'is-rect';
+  }, [currentTrack]);
+
   const onEndedRef = useRef(null);
   const player = useAudioPlayer(currentTrack, () => onEndedRef.current?.(), isMvOpen);
 
@@ -174,7 +196,7 @@ export function App() {
   return (
     <div className="app-container">
       <div
-        className={`bg-cover ${currentTrack?.isSquare ? 'is-square' : 'is-rect'}`}
+        className={`bg-cover ${coverScaleClass}`}
         style={{ backgroundImage: `url(${currentTrack?.coverUrl || '/assets/cover.jpg'})` }}
       />
       <div className="bg-overlay" />
