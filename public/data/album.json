@@ -36,7 +36,7 @@
       "composer": "Nghiêm Vũ Hoàng Long",
       "coverUrl": "/artwork/Track02.webp",
       "video": "IDK.mp4",
-      "videoUrl": "/mv/IDK.mp4",
+      "videoUrl": "/mv/Track02_MV.mp4",
       "isSquare": false,
       "width": 2560,
       "height": 1440
@@ -126,7 +126,7 @@
       "composer": "Nghiêm Vũ Hoàng Long;Vũ Tuấn Huy",
       "coverUrl": "/artwork/Track07.webp",
       "video": "MẮT MÔI TAY CHÂN.mp4",
-      "videoUrl": "/mv/MẮT MÔI TAY CHÂN.mp4",
+      "videoUrl": "/mv/Track07_MV.mp4",
       "isSquare": false,
       "width": 2509,
       "height": 1673
@@ -270,7 +270,7 @@
       "composer": "Nghiêm Vũ Hoàng Long",
       "coverUrl": "/artwork/Track15.webp",
       "video": "SLIPPERY.mp4",
-      "videoUrl": "/mv/SLIPPERY.mp4",
+      "videoUrl": "/mv/Track15_MV.mp4",
       "isSquare": false,
       "width": 2088,
       "height": 2011
@@ -360,7 +360,7 @@
       "composer": "Nghiêm Vũ Hoàng Long;Lý Quốc Phong",
       "coverUrl": "/artwork/Track20.webp",
       "video": "XA XÔI.mp4",
-      "videoUrl": "/mv/XA XÔI.mp4",
+      "videoUrl": "/mv/Track20_MV.mp4",
       "isSquare": true,
       "width": 2049,
       "height": 2049
@@ -396,7 +396,7 @@
       "composer": "Nghiêm Vũ Hoàng Long",
       "coverUrl": "/artwork/Track22.webp",
       "video": "OANH MAY = THUOC.mp4",
-      "videoUrl": "/mv/OANH MAY = THUOC.mp4",
+      "videoUrl": "/mv/Track22_MV.mp4",
       "isSquare": true,
       "width": 2049,
       "height": 2049
@@ -432,7 +432,7 @@
       "composer": "Nghiêm Vũ Hoàng Long",
       "coverUrl": "/artwork/Track24.webp",
       "video": "NHIN KE THU CUA TAO.mp4",
-      "videoUrl": "/mv/NHIN KE THU CUA TAO.mp4",
+      "videoUrl": "/mv/Track24_MV.mp4",
       "isSquare": true,
       "width": 2049,
       "height": 2049

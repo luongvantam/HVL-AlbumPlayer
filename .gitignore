@@ -32,8 +32,6 @@ lerna-debug.log*
 ehthumbs.db
 Thumbs.db
 
-# Large Video Files (Handled separately)
-public/mv/
 
 # IDE & Tooling
 .idea/
