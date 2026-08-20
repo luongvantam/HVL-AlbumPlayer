@@ -21,7 +21,7 @@
         "text": "Ah, ah, ah, ah, ah, ah, ah"
       },
       {
-        "time": 21.85,
+        "time": 22.65,
         "text": "Khói bay, nơi phố xưa, ánh mắt quen chiều chạng vạng"
       },
       {
@@ -37,7 +37,7 @@
         "text": "Nàng nhắc anh là đã lâu anh vẫn chưa được về nhà"
       },
       {
-        "time": 34.04,
+        "time": 33.84,
         "text": "Và cứ như là không quan tâm, nhưng vẫn cứ luôn miệng xì xào"
       },
       {
@@ -49,8 +49,12 @@
         "text": "Còn nhớ em, anh muốn quên, để những câu hỏi kỳ lạ"
       },
       {
-        "time": 41.85,
+        "time": 42.4,
         "text": "Trả lời giúp anh, sao anh hút ben mà chẳng thấy phê, chẳng gì cả?"
+      },
+      {
+        "time": 44.8,
+        "text": "..."
       },
       {
         "time": 48.96,
@@ -61,11 +65,11 @@
         "text": "Baby, what’s up?"
       },
       {
-        "time": 57.15,
+        "time": 57.45,
         "text": "Chạy đuổi theo nhau thành một vòng tròn"
       },
       {
-        "time": 60.79,
+        "time": 60.6,
         "text": "Đôi khi thấy nhưng không đợi mong"
       },
       {
@@ -276,7 +280,11 @@
       },
       {
         "time": 29.92,
-        "text": "What the f*ck? Baby, I’m still lit"
+        "text": "What the f*ck?"
+      },
+      {
+        "time": 30.7,
+        "text": "Baby, I’m still lit"
       },
       {
         "time": 31.73,
@@ -324,7 +332,7 @@
       },
       {
         "time": 60.18,
-        "text": "Yeah, tim anh như đang nổ tung nhưng mà lại chẳng biết nói gì với em"
+        "text": "Tim anh như đang nổ tung nhưng mà lại chẳng biết nói gì với em"
       },
       {
         "time": 64.01,
@@ -347,11 +355,7 @@
         "text": "(Đến bên em người ơi) đung đưa trôi khi mà hai ta say mèm (Khẽ chạm vào bờ môi)"
       },
       {
-        "time": 81.35,
-        "text": "(Cho đến khi anh chơi vơi)"
-      },
-      {
-        "time": 84.35,
+        "time": 86.69,
         "text": "(Cho đến khi anh chơi vơi)"
       },
       {
@@ -388,7 +392,7 @@
       },
       {
         "time": 105.04,
-        "text": "(Khi mà em) khi mà em đang say"
+        "text": "(Khi mà em) khi mà em đang say (yah)"
       },
       {
         "time": 109.21,
@@ -505,7 +509,7 @@
         "text": "Khi mà ta chạm vào nhau, đan bàn tay, trao nhau những ánh mắt"
       },
       {
-        "time": 7.18,
+        "time": 6.88,
         "text": "Chầm chậm lướt lên trên đôi môi nàng, yeah"
       },
       {
@@ -538,7 +542,7 @@
       },
       {
         "time": 61.99,
-        "text": "Và sự cô đơn nó đã theo chân em đến đây (theo nhịp chân em)"
+        "text": "Rồi cô đơn nó đã theo chân em đến đây (theo nhịp chân em)"
       },
       {
         "time": 65.14,
@@ -549,7 +553,7 @@
         "text": "Và nó sẽ đem cho em cảm giác như lần đầu"
       },
       {
-        "time": 70.75,
+        "time": 70.55,
         "text": "Cứ gặp anh ở trong những giấc mơ, những giấc mơ"
       },
       {
@@ -557,7 +561,7 @@
         "text": "Và nó sẽ đem cho em cảm giác như lần đầu"
       },
       {
-        "time": 76.54,
+        "time": 76.34,
         "text": "Bởi vì anh biết yêu thương này không mờ phai (không bao giờ phai)"
       },
       {
@@ -589,11 +593,11 @@
         "text": "Baby, em chơi anh như một món đồ chơi"
       },
       {
-        "time": 98.31,
+        "time": 98.27,
         "text": "Hết cách rồi (bó tay)"
       },
       {
-        "time": 99.67,
+        "time": 99.37,
         "text": "Ten out of ten, đấy là feedback cho bộ mông của em"
       },
       {
@@ -605,7 +609,7 @@
         "text": "Chỉ cần nói với em vài câu, anh đã thấy bí bách quá đi"
       },
       {
-        "time": 108.23,
+        "time": 108.03,
         "text": "Phòng chỉ toàn là sương thôi nên là quá là mù mờ"
       },
       {
@@ -617,7 +621,7 @@
         "text": "Hút một bi tưởng pod chill, anh lăn quay cu đơ"
       },
       {
-        "time": 116.33,
+        "time": 116.13,
         "text": "Có lẽ ở cạnh bên em nên là anh khù khờ"
       },
       {
@@ -637,7 +641,7 @@
         "text": "I neva gon' cheat, neva do that thing to her"
       },
       {
-        "time": 129.77,
+        "time": 129.67,
         "text": "Bởi vì anh biết yêu thương này không mờ phai (không mờ phai)"
       },
       {
@@ -667,6 +671,10 @@
       {
         "time": 156.24,
         "text": "Để anh nói yêu mình em"
+      },
+      {
+        "time": 159.77,
+        "text": "..."
       }
     ]
   },
@@ -1462,7 +1470,11 @@
       },
       {
         "time": 57.21,
-        "text": "Vậy tại tại sao nụ hôn này say mê mà làm anh bị gây tê? Yeah, I'm tryin' to focus"
+        "text": "Vậy tại tại sao nụ hôn này say mê mà làm anh bị gây tê?"
+      },
+      {
+        "time": 58.9,
+        "text": "Yeah, I'm tryin' to focus"
       },
       {
         "time": 60.35,
@@ -1599,7 +1611,7 @@
         "text": "Xót xa tôi nhìn, và tôi chợt thấy thương tôi vô..."
       },
       {
-        "time": 35.85,
+        "time": 39.85,
         "text": "— ĐOẠN DẠO NHẠC —"
       },
       {
@@ -1612,7 +1624,11 @@
       },
       {
         "time": 60.08,
-        "text": "\"Em là gì của anh?\", em hỏi anh khi mặt trời rạng"
+        "text": "\"Em là gì của anh?\""
+      },
+      {
+        "time": 61.1,
+        "text": "Em hỏi anh khi mặt trời rạng"
       },
       {
         "time": 62.15,
@@ -1660,7 +1676,15 @@
       },
       {
         "time": 88.95,
-        "text": "Liệu em còn nhớ về anh không? Hay là quên rồi? Em lại quên rồi?"
+        "text": "Liệu em còn nhớ về anh không?"
+      },
+      {
+        "time": 89.85,
+        "text": "Hay là quên rồi?"
+      },
+      {
+        "time": 90.65,
+        "text": "Em lại quên rồi?"
       },
       {
         "time": 91.48,
@@ -1833,8 +1857,8 @@
         "text": "Đừng để anh ngẩn ngơ"
       },
       {
-        "time": 84.0,
-        "text": "— ĐOẠN ĐỘC TẤU SAXOPHONE —"
+        "time": 83.0,
+        "text": "— ĐOẠN PIANO CHƠI CHƠI —"
       },
       {
         "time": 145.75,
@@ -1911,11 +1935,11 @@
         "text": "Chưa bao giờ là có khoảng cách"
       },
       {
-        "time": 72.18,
+        "time": 71.88,
         "text": "Những đốm sáng của màn đêm"
       },
       {
-        "time": 73.54,
+        "time": 73.34,
         "text": "Anh đã khóc, anh đã khóc rất nhiều, anh căm ghét sự nổi tiếng, không thích mình nổi lên"
       },
       {
@@ -1940,7 +1964,7 @@
       },
       {
         "time": 90.26,
-        "text": "Đôi khi chỉ là còn yêu, nên mặt anh dày và anh * biết đến chữ ngại"
+        "text": "Đôi khi chỉ là còn yêu, nên mặt anh dày và anh đ*o biết đến chữ ngại"
       },
       {
         "time": 93.47,
@@ -2012,7 +2036,11 @@
       },
       {
         "time": 129.36,
-        "text": "Anh đã quen với chiến thắng? Đúng vậy"
+        "text": "Anh đã quen với chiến thắng?"
+      },
+      {
+        "time": 130.3,
+        "text": "Đúng vậy"
       },
       {
         "time": 131.07,
@@ -2028,7 +2056,11 @@
       },
       {
         "time": 135.92,
-        "text": "Anh đã quen với chiến thắng? Đúng vậy"
+        "text": "Anh đã quen với chiến thắng?"
+      },
+      {
+        "time": 136.86,
+        "text": "Đúng vậy"
       },
       {
         "time": 137.55,
@@ -2047,11 +2079,11 @@
         "text": "Khi đi qua hết, chỉ còn lại kỉ niệm sau bao nhiêu kiếp cũng không thể nào quên"
       },
       {
-        "time": 149.39,
+        "time": 149.19,
         "text": "Chưa bao giờ là có khoảng cách"
       },
       {
-        "time": 150.92,
+        "time": 150.81,
         "text": "Những đốm sáng của màn đêm"
       },
       {
@@ -2063,7 +2095,7 @@
         "text": "Chạm được vào nơi sâu nhất của cảm xúc, bắt những cảm xúc đó trào lên"
       },
       {
-        "time": 159.28,
+        "time": 159.08,
         "text": "Khi đi qua hết, chỉ còn lại kỉ niệm sau bao nhiêu kiếp cũng không thể nào quên"
       },
       {
@@ -2073,6 +2105,14 @@
       {
         "time": 164.03,
         "text": "Những đốm sáng của màn đêm"
+      },
+      {
+        "time": 165.33,
+        "text": "— ĐOẠN OUTRO —"
+      },
+      {
+        "time": 197.0,
+        "text": "..."
       }
     ]
   },
@@ -2085,271 +2125,271 @@
         "text": "— ĐOẠN DẠO NHẠC (INTRO) —"
       },
       {
-        "time": 22.69,
+        "time": 22.44,
         "text": "Anh đã nói quá nhiều về tình yêu"
       },
       {
-        "time": 24.98,
+        "time": 24.73,
         "text": "Nhưng lại chẳng biết anh muốn điều gì từ tình yêu"
       },
       {
-        "time": 26.82,
+        "time": 26.57,
         "text": "Và đã có những vết cắt rất sâu, nhắc anh bao điều"
       },
       {
-        "time": 30.02,
+        "time": 29.77,
         "text": "Đừng có tin khi con tim này còn phiêu"
       },
       {
-        "time": 32.58,
+        "time": 32.33,
         "text": "Ừ thì viết nốt lần này thôi"
       },
       {
-        "time": 34.78,
+        "time": 34.53,
         "text": "Chẳng thể để cảm xúc cứ mãi tồn đọng ở bờ môi"
       },
       {
-        "time": 36.8,
+        "time": 36.55,
         "text": "Và anh sẽ xóa hết những thước phim khi em đi xa rồi"
       },
       {
-        "time": 39.71,
+        "time": 39.46,
         "text": "Chẳng còn đớn đau, chỉ là do con tim anh rã rời"
       },
       {
-        "time": 41.86,
+        "time": 41.61,
         "text": "Thêm một party, thêm một ly on the weekend"
       },
       {
-        "time": 46.83,
+        "time": 46.58,
         "text": "Vậy đừng đỡ anh ra khỏi đây, anh đang say mèm"
       },
       {
-        "time": 51.86,
+        "time": 51.61,
         "text": "Anh chẳng biết thế nào là tốt đâu"
       },
       {
-        "time": 53.42,
+        "time": 53.17,
         "text": "Anh đang đi tìm chính mình"
       },
       {
-        "time": 54.65,
+        "time": 54.4,
         "text": "Giết em luôn, không để cho em thay đổi tính tình"
       },
       {
-        "time": 57.15,
+        "time": 56.9,
         "text": "F*ck all the b*tches, không thể tin, không thể phiêu được"
       },
       {
-        "time": 59.58,
+        "time": 59.33,
         "text": "I got no chill dù anh trip hơi sâu, eh-eh-eh-eh"
       },
       {
-        "time": 63.97,
+        "time": 63.72,
         "text": "Và thế nào là một thằng đàn ông?"
       },
       {
-        "time": 66.36,
+        "time": 66.11,
         "text": "Là phải giang tay và ôm em vào lòng?"
       },
       {
-        "time": 69.07,
+        "time": 68.82,
         "text": "Sẽ trao cho em bao nụ hôn dù là chẳng còn lại gì ở bên trong?"
       },
       {
-        "time": 73.92,
+        "time": 73.67,
         "text": "Và nếu cho anh quay ngược thời gian"
       },
       {
-        "time": 76.31,
+        "time": 76.06,
         "text": "Anh sẽ yêu em như là yêu một người bạn"
       },
       {
-        "time": 78.85,
+        "time": 78.6,
         "text": "Như cách em đã từng yêu một người bạn (Yeah)"
       },
       {
-        "time": 81.25,
+        "time": 81.0,
         "text": "Yeah, yeah, vậy đừng có nói quá nhiều về tình yêu (Nói quá nhiều về tình yêu)"
       },
       {
-        "time": 84.78,
+        "time": 84.53,
         "text": "Như là mình biết tất cả mọi chuyện về tình yêu (Hah-uh-huh)"
       },
       {
-        "time": 86.95,
+        "time": 86.7,
         "text": "Đã có những vết cắt rất sâu, nhắc anh bao điều"
       },
       {
-        "time": 89.99,
+        "time": 89.74,
         "text": "Đừng có tin khi con tim này còn phiêu (Huh-huh-huh)"
       },
       {
-        "time": 92.32,
+        "time": 92.07,
         "text": "Và anh chỉ viết nốt lần này thôi"
       },
       {
-        "time": 94.68,
+        "time": 94.43,
         "text": "Chẳng thể để cảm xúc cứ mãi tồn đọng ở bờ môi"
       },
       {
-        "time": 96.83,
+        "time": 96.58,
         "text": "Và anh sẽ xóa hết những thước phim khi em đi xa rồi"
       },
       {
-        "time": 99.78,
+        "time": 99.53,
         "text": "Chẳng còn gì nữa đâu bởi vì con tim anh rã rời"
       },
       {
-        "time": 102.45,
+        "time": 102.2,
         "text": "Ah, hết rồi (Huh), anh chưa từng nghĩ ngợi"
       },
       {
-        "time": 105.23,
+        "time": 104.98,
         "text": "Hãy để, cho anh được nghỉ ngơi"
       },
       {
-        "time": 107.87,
+        "time": 107.62,
         "text": "Nói hết, ra những lời trong lòng"
       },
       {
-        "time": 110.37,
+        "time": 110.12,
         "text": "Hiên ngang không quan tâm ai quy tội"
       },
       {
-        "time": 112.65,
+        "time": 112.4,
         "text": "Trào lên bao nhiêu nghi ngờ vùi dập đi những khúc ca tình (Những khúc ca)"
       },
       {
-        "time": 115.16,
+        "time": 114.91,
         "text": "Cảm ơn vì những bài học này làm cho anh nhận ra mình (Hah-hah)"
       },
       {
-        "time": 117.56,
+        "time": 117.31,
         "text": "Em làm đúng những thứ anh suy luận giờ đã sáng tỏ khung hình"
       },
       {
-        "time": 120.15,
+        "time": 119.9,
         "text": "Và bước đi anh cần tôn trọng thằng đàn ông ở trong mình, yeah-eh"
       },
       {
-        "time": 127.46,
+        "time": 127.21,
         "text": "Eh-eh"
       },
       {
-        "time": 132.43,
+        "time": 132.18,
         "text": "Eh-eh"
       },
       {
-        "time": 137.59,
+        "time": 137.34,
         "text": "Eh-eh, eh-eh"
       },
       {
-        "time": 141.13,
+        "time": 140.88,
         "text": "Uh-uh, mọc đâu ra cây hoa ở ngoài hiên nhà"
       },
       {
-        "time": 144.94,
+        "time": 144.69,
         "text": "Mong cho hoa đưa hương bay thật xa"
       },
       {
-        "time": 147.28,
+        "time": 147.03,
         "text": "Anh đã cảm thấy nơi đây như là thiên đường"
       },
       {
-        "time": 149.83,
+        "time": 149.58,
         "text": "Mặc người đời nói rằng anh điêu toa"
       },
       {
-        "time": 152.32,
+        "time": 152.07,
         "text": "Ngân nga câu hát ta và hoa đã từng đắm chìm"
       },
       {
-        "time": 154.94,
+        "time": 154.69,
         "text": "Nhưng anh biết, không phải bông hoa của riêng anh"
       },
       {
-        "time": 157.4,
+        "time": 157.15,
         "text": "Và nếu anh muốn, chắc chắn anh sẽ làm"
       },
       {
-        "time": 160.08,
+        "time": 159.83,
         "text": "Anh đủ yêu hoa để anh rời xa"
       },
       {
-        "time": 162.87,
+        "time": 162.62,
         "text": "Nói, về tình yêu"
       },
       {
-        "time": 164.92,
+        "time": 164.67,
         "text": "Mà chẳng biết, về tình yêu"
       },
       {
-        "time": 167.13,
+        "time": 166.88,
         "text": "Cắt rất sâu, bao điều"
       },
       {
-        "time": 170.02,
+        "time": 169.77,
         "text": "Đừng tin khi tim còn phiêu"
       },
       {
-        "time": 172.81,
+        "time": 172.56,
         "text": "Viết, lần này thôi"
       },
       {
-        "time": 175.09,
+        "time": 174.84,
         "text": "Cảm xúc, đọng bờ môi"
       },
       {
-        "time": 177.41,
+        "time": 177.16,
         "text": "Xóa phim, đi xa rồi"
       },
       {
-        "time": 180.03,
+        "time": 179.78,
         "text": "Đớn đau, tim rã rời, yeah"
       },
       {
-        "time": 182.47,
+        "time": 182.22,
         "text": "Vậy đừng có nói quá nhiều về tình yêu (Quá nhiều về tình yêu)"
       },
       {
-        "time": 184.95,
+        "time": 184.7,
         "text": "Như là mình sẽ mãi mãi luôn bên nhau (Huh-huh), anh không bao giờ chạm vào nữa đâu"
       },
       {
-        "time": 189.32,
+        "time": 189.07,
         "text": "(Nhưng tại sao mà anh lại tin khi con tim này còn phiêu, uh-huh)"
       },
       {
-        "time": 192.18,
+        "time": 191.93,
         "text": "(Trao cho ai nhờ?)"
       },
       {
-        "time": 192.59,
+        "time": 192.34,
         "text": "Anh chỉ viết nốt lần này (Viết nốt lần này)"
       },
       {
-        "time": 195.3,
+        "time": 195.05,
         "text": "(Viết nốt lần này)"
       },
       {
-        "time": 196.23,
+        "time": 195.98,
         "text": "Chẳng còn cách nào có thể xóa được những buồn phiền khi em đi xa rồi"
       },
       {
-        "time": 199.76,
+        "time": 199.51,
         "text": "Chẳng còn đớn đau chẳng còn phù hợp (Uh-huh) thì giữ lại làm gì"
       },
       {
-        "time": 211.96,
+        "time": 211.71,
         "text": "(Em đừng nói gì với tình yêu nữa)"
       },
       {
-        "time": 214.99,
+        "time": 214.74,
         "text": "(Anh nghe chán rồi, yeah)"
       },
       {
-        "time": 219.82,
+        "time": 219.57,
         "text": "(Em đừng nói gì với tình yêu nữa)"
       }
     ]
@@ -2762,7 +2802,11 @@
       },
       {
         "time": 114.98,
-        "text": "Vậy sao em quay đi? Tại sao em quay đi?"
+        "text": "Vậy sao em quay đi?"
+      },
+      {
+        "time": 116.2,
+        "text": "Tại sao em quay đi?"
       },
       {
         "time": 117.6,
@@ -2888,7 +2932,11 @@
       },
       {
         "time": 39.5,
-        "text": "Trái Tim Chrome outfit (Say what?) / Trái Tim Chrome outfit, b*tch"
+        "text": "Trái Tim Chrome outfit (Say what?)"
+      },
+      {
+        "time": 41.0,
+        "text": "Trái Tim Chrome outfit, b*tch"
       },
       {
         "time": 42.47,
@@ -2900,7 +2948,11 @@
       },
       {
         "time": 45.48,
-        "text": "Mấy cô em trông lit / Mấy quả cảnh sâu tít"
+        "text": "Mấy cô em trông lit"
+      },
+      {
+        "time": 46.68,
+        "text": "Mấy quả cảnh sâu tít"
       },
       {
         "time": 47.85,
@@ -2940,7 +2992,15 @@
       },
       {
         "time": 77.4,
-        "text": "Mày muốn respect của tao? Muốn trust của tao? Thử dành lấy đi bố mày xem nào"
+        "text": "Mày muốn respect của tao?"
+      },
+      {
+        "time": 78.5,
+        "text": "Muốn trust của tao?"
+      },
+      {
+        "time": 79.5,
+        "text": "Thử dành lấy đi bố mày xem nào"
       },
       {
         "time": 80.7,
@@ -2956,7 +3016,11 @@
       },
       {
         "time": 87.51,
-        "text": "Trái Tim Chrome outfit (Say what?) / Trái Tim Chrome outfit, b*tch"
+        "text": "Trái Tim Chrome outfit (Say what?)"
+      },
+      {
+        "time": 89.01,
+        "text": "Trái Tim Chrome outfit, b*tch"
       },
       {
         "time": 90.59,
@@ -2968,7 +3032,11 @@
       },
       {
         "time": 93.66,
-        "text": "Mấy cô em trông lit / Mấy quả cảnh sâu tít"
+        "text": "Mấy cô em trông lit"
+      },
+      {
+        "time": 94.86,
+        "text": "Mấy quả cảnh sâu tít"
       },
       {
         "time": 96.58,
@@ -2988,7 +3056,11 @@
       },
       {
         "time": 121.85,
-        "text": "Trái Tim Chrome outfit (Tao thích) / Trái Tim Chrome outfit, b*tch"
+        "text": "Trái Tim Chrome outfit (Tao thích)"
+      },
+      {
+        "time": 123.48,
+        "text": "Trái Tim Chrome outfit, b*tch"
       },
       {
         "time": 125.12,
@@ -3000,7 +3072,11 @@
       },
       {
         "time": 128.55,
-        "text": "Mấy cô em trông lit / Mấy quả cảnh sâu—"
+        "text": "Mấy cô em trông lit"
+      },
+      {
+        "time": 130.4,
+        "text": "Mấy quả cảnh sâu—"
       },
       {
         "time": 132.85,
@@ -3024,7 +3100,11 @@
       },
       {
         "time": 182.82,
-        "text": "Thích như nào, thích như nào, thích như nào, như nào? Huh?"
+        "text": "Thích như nào, thích như nào, thích như nào, như nào?"
+      },
+      {
+        "time": 184.5,
+        "text": "Huh?"
       },
       {
         "time": 185.58,
@@ -3052,7 +3132,11 @@
       },
       {
         "time": 197.66,
-        "text": "Trái Tim Chrome outfit / Chrome outfit"
+        "text": "Trái Tim Chrome outfit"
+      },
+      {
+        "time": 199.3,
+        "text": "Chrome outfit"
       },
       {
         "time": 201.31,
@@ -3164,19 +3248,35 @@
     "lines": [
       {
         "time": 0.0,
-        "text": "Tên tao là gì? MCK"
+        "text": "Tên tao là gì?"
+      },
+      {
+        "time": 1.8,
+        "text": "MCK"
       },
       {
         "time": 2.94,
-        "text": "Tên tao là gì? MCK"
+        "text": "Tên tao là gì?"
+      },
+      {
+        "time": 4.74,
+        "text": "MCK"
       },
       {
         "time": 6.13,
-        "text": "Tên tao là gì? MCK"
+        "text": "Tên tao là gì?"
+      },
+      {
+        "time": 7.93,
+        "text": "MCK"
       },
       {
         "time": 9.27,
-        "text": "Tên tao là gì? MCK"
+        "text": "Tên tao là gì?"
+      },
+      {
+        "time": 11.07,
+        "text": "MCK"
       },
       {
         "time": 12.57,
@@ -3196,7 +3296,11 @@
       },
       {
         "time": 24.99,
-        "text": "Uh, trốn tránh cái trách nhiệm này quá lâu nên truyền thông rất thích săn đuổi"
+        "text": "Uhhh"
+      },
+      {
+        "time": 25.7,
+        "text": "Trốn tránh cái trách nhiệm này quá lâu nên truyền thông rất thích săn đuổi"
       },
       {
         "time": 28.86,
@@ -3220,11 +3324,31 @@
       },
       {
         "time": 45.23,
-        "text": "Mày thấy nó giống cái vòng vàng á? (Sao?) Tao lại tưởng nó là cái xích chó"
+        "text": "Mày thấy nó giống cái vòng vàng á? (Sao?)"
+      },
+      {
+        "time": 46.7,
+        "text": "Tao lại tưởng nó là cái xích chó"
       },
       {
         "time": 47.8,
-        "text": "Ai để mày đi lung tung ngoài đường này? Xích vô, xích vô, xích vô, xích vô"
+        "text": "Ai để mày đi lung tung ngoài đường này?"
+      },
+      {
+        "time": 49.4,
+        "text": "Xích vô"
+      },
+      {
+        "time": 49.8,
+        "text": "Xích vô"
+      },
+      {
+        "time": 50.2,
+        "text": "Xích vô"
+      },
+      {
+        "time": 50.6,
+        "text": "Xích vô"
       },
       {
         "time": 51.46,
@@ -3260,7 +3384,19 @@
       },
       {
         "time": 64.49,
-        "text": "Bố mày đ*o gang, bố mày đ*o gang, bố mày đ*o gang, đ*o phải gang, gang (Pam-pam)"
+        "text": "Bố mày đ*o gang"
+      },
+      {
+        "time": 65.0,
+        "text": "Bố mày đ*o gang"
+      },
+      {
+        "time": 65.49,
+        "text": "Bố mày đ*o gang"
+      },
+      {
+        "time": 66.0,
+        "text": "Đ*o phải gang, gang (Pam-pam)"
       },
       {
         "time": 67.64,
@@ -3279,7 +3415,7 @@
         "text": "Không thể hiểu rõ được nhân tình thế thái, đôi khi vạch d*i vào chân mình cứ thế đái (Mát quá)"
       },
       {
-        "time": 80.64,
+        "time": 80.44,
         "text": "Chúng nó muốn có chỗ đứng còn tao thì mỏi rồi, cho tao tìm cái ghế cái (Tìm đi)"
       },
       {
@@ -3374,7 +3510,11 @@
       },
       {
         "time": 34.01,
-        "text": "Phải làm sao để cho con số nó không tăng lên nữa? Ôi-ồ-ôi, yeah"
+        "text": "Phải làm sao để cho con số nó không tăng lên nữa?"
+      },
+      {
+        "time": 35.85,
+        "text": "Ôi-ồ-ôi, yeah"
       },
       {
         "time": 37.51,
@@ -3446,7 +3586,11 @@
       },
       {
         "time": 89.82,
-        "text": "Em bảo em bị đau ở đâu? Để đấy anh khám hộ (fwah)"
+        "text": "Em bảo em bị đau ở đâu?"
+      },
+      {
+        "time": 91.2,
+        "text": "Để đấy anh khám hộ (fwah)"
       },
       {
         "time": 92.87,
@@ -3454,7 +3598,11 @@
       },
       {
         "time": 95.86,
-        "text": "Đang trên phố, em đang đâu? Anh đang bờ hồ, yeah"
+        "text": "Đang trên phố, em đang đâu?"
+      },
+      {
+        "time": 97.35,
+        "text": "Anh đang bờ hồ, yeah"
       },
       {
         "time": 99.06,
@@ -3478,7 +3626,11 @@
       },
       {
         "time": 114.38,
-        "text": "Anh này người nhà giời à? Cứ bắt em chờ mà (chuh)"
+        "text": "Anh này người nhà giời à?"
+      },
+      {
+        "time": 115.8,
+        "text": "Cứ bắt em chờ mà (chuh)"
       },
       {
         "time": 117.46,
@@ -3616,7 +3768,11 @@
       },
       {
         "time": 105.32,
-        "text": "Sao chúng mày phải cố làm cho nó bé lại? Tao chụp lại phát nữa này cho chúng mày lao đao (Được chưa? B*tch)"
+        "text": "Sao chúng mày phải cố làm cho nó bé lại?"
+      },
+      {
+        "time": 107.2,
+        "text": "Tao chụp lại phát nữa này cho chúng mày lao đao (Được chưa? B*tch)"
       },
       {
         "time": 109.61,
@@ -3652,7 +3808,11 @@
       },
       {
         "time": 131.99,
-        "text": "Đừng hỏi tao kiểu \"Đây là ai? Đây là ai?\", đ*o biết, hệ điều hành tao chạy nó gọi là undercover"
+        "text": "Đừng hỏi tao kiểu \"Đây là ai? Đây là ai?\""
+      },
+      {
+        "time": 133.5,
+        "text": "đ*o biết, hệ điều hành tao chạy nó gọi là undercover"
       },
       {
         "time": 135.36,
@@ -3702,7 +3862,11 @@
       },
       {
         "time": 24.16,
-        "text": "Tao như là nước thôi, mày định xiên vào đâu? Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\""
+        "text": "Tao như là nước thôi, mày định xiên vào đâu?"
+      },
+      {
+        "time": 25.8,
+        "text": "Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\""
       },
       {
         "time": 27.47,
@@ -3718,7 +3882,11 @@
       },
       {
         "time": 36.62,
-        "text": "Bố mày chỉ như là nước thôi, mày định xiên vào đâu? Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\""
+        "text": "Bố mày chỉ như là nước thôi, mày định xiên vào đâu?"
+      },
+      {
+        "time": 38.25,
+        "text": "Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\""
       },
       {
         "time": 39.93,
@@ -3754,7 +3922,11 @@
       },
       {
         "time": 62.42,
-        "text": "Nhấc em ra trước gương, cầm camera, 4K? Okay"
+        "text": "Nhấc em ra trước gương, cầm camera, 4K?"
+      },
+      {
+        "time": 64.3,
+        "text": "Okay"
       },
       {
         "time": 65.42,
@@ -3766,11 +3938,19 @@
       },
       {
         "time": 71.61,
-        "text": "Còn gì không? Comment nữa đê, mấy thằng ôn con này thích sủa, vào mà sủa đê"
+        "text": "Còn gì không?"
+      },
+      {
+        "time": 73.2,
+        "text": "Comment nữa đê, mấy thằng ôn con này thích sủa, vào mà sủa đê"
       },
       {
         "time": 76.83,
-        "text": "Em ấy muốn được tao quan tâm? Mặt xinh, dâm, mông đàn hồi"
+        "text": "Em ấy muốn được tao quan tâm?"
+      },
+      {
+        "time": 78.3,
+        "text": "Mặt xinh, dâm, mông đàn hồi"
       },
       {
         "time": 79.84,
@@ -3806,7 +3986,11 @@
       },
       {
         "time": 103.71,
-        "text": "Làm được không? Không thì kháy cái l*n"
+        "text": "Làm được không?"
+      },
+      {
+        "time": 104.4,
+        "text": "Không thì kháy cái l*n"
       },
       {
         "time": 105.17,
@@ -3842,7 +4026,11 @@
       },
       {
         "time": 125.49,
-        "text": "Tao như là nước thôi, mày định xiên vào đâu? Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\" (Yeah, huh)"
+        "text": "Tao như là nước thôi, mày định xiên vào đâu?"
+      },
+      {
+        "time": 127.1,
+        "text": "Tao chỉ nói đúng một câu, \"Em ơi đừng hòng\" (Yeah, huh)"
       },
       {
         "time": 128.73,
@@ -3972,7 +4160,11 @@
       },
       {
         "time": 25.62,
-        "text": "Huh? Quan tâm làm gì?"
+        "text": "Huh?"
+      },
+      {
+        "time": 26.15,
+        "text": "Quan tâm làm gì?"
       },
       {
         "time": 27.16,
@@ -4326,7 +4518,11 @@
       },
       {
         "time": 110.66,
-        "text": "Fashion rapper? Họ mặc so lame"
+        "text": "Fashion rapper?"
+      },
+      {
+        "time": 111.4,
+        "text": "Họ mặc so lame"
       },
       {
         "time": 112.15,
@@ -4342,7 +4538,11 @@
       },
       {
         "time": 120.03,
-        "text": "Yêu em anh nhé? Adele"
+        "text": "Yêu em anh nhé?"
+      },
+      {
+        "time": 120.9,
+        "text": "Adele"
       },
       {
         "time": 121.52,
@@ -4382,7 +4582,11 @@
       },
       {
         "time": 149.39,
-        "text": "Hmm, ai biết? Không thể control, sai khiến"
+        "text": "Hmm, ai biết?"
+      },
+      {
+        "time": 150.5,
+        "text": "Không thể control, sai khiến"
       },
       {
         "time": 152.29,
@@ -4630,7 +4834,15 @@
       },
       {
         "time": 77.21,
-        "text": "Sao? Huh? Mày muốn thấy tao chết à?"
+        "text": "Sao?"
+      },
+      {
+        "time": 77.6,
+        "text": "Huh?"
+      },
+      {
+        "time": 77.95,
+        "text": "Mày muốn thấy tao chết à?"
       },
       {
         "time": 78.78,
@@ -4710,7 +4922,15 @@
       },
       {
         "time": 142.7,
-        "text": "Sao? Huh? Mày muốn thấy tao chết à?"
+        "text": "Sao?"
+      },
+      {
+        "time": 143.09,
+        "text": "Huh?"
+      },
+      {
+        "time": 143.44,
+        "text": "Mày muốn thấy tao chết à?"
       },
       {
         "time": 144.4,
@@ -4774,7 +4994,11 @@
       },
       {
         "time": 168.19,
-        "text": "Bá hơn ai? bá hơn tao?"
+        "text": "Bá hơn ai?"
+      },
+      {
+        "time": 168.95,
+        "text": "Bá hơn tao?"
       },
       {
         "time": 169.71,
@@ -4802,7 +5026,11 @@
       },
       {
         "time": 178.56,
-        "text": "Chúng mày không thể đánh tráo định cho tao vai ác? Motherfu*kers"
+        "text": "Chúng mày không thể đánh tráo định cho tao vai ác?"
+      },
+      {
+        "time": 179.8,
+        "text": "Motherfu*kers"
       },
       {
         "time": 180.57,
@@ -4924,7 +5152,15 @@
       },
       {
         "time": 82.23,
-        "text": "Tao chỉ sống cuộc đời của tao, mày thấy đ*o vừa mắt à? Sao hả? Sao hả?"
+        "text": "Tao chỉ sống cuộc đời của tao, mày thấy đ*o vừa mắt à?"
+      },
+      {
+        "time": 84.1,
+        "text": "Sao hả?"
+      },
+      {
+        "time": 84.7,
+        "text": "Sao hả?"
       },
       {
         "time": 85.35,
@@ -6222,7 +6458,11 @@
       },
       {
         "time": 102.15,
-        "text": "Hỏi anh tại sao đỉnh cao? Hình như là do đẹp zai, I don′t know"
+        "text": "Hỏi anh tại sao đỉnh cao?"
+      },
+      {
+        "time": 103.65,
+        "text": "Hình như là do đẹp zai, I don′t know"
       },
       {
         "time": 105.31,
