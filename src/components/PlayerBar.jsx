@@ -40,29 +40,11 @@ export function PlayerBar({
   onCycleRepeat
 }) {
   const seekbarRef = useRef(null);
-  const volumePopoverRef = useRef(null);
   const [hoverTime, setHoverTime] = useState(null);
   const [hoverPercent, setHoverPercent] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [showMobileVolume, setShowMobileVolume] = useState(false);
 
   const playedPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
-
-  useEffect(() => {
-    function handleClickOutside(e) {
-      if (volumePopoverRef.current && !volumePopoverRef.current.contains(e.target)) {
-        setShowMobileVolume(false);
-      }
-    }
-    if (showMobileVolume) {
-      document.addEventListener('mousedown', handleClickOutside);
-      document.addEventListener('touchstart', handleClickOutside);
-    }
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-      document.removeEventListener('touchstart', handleClickOutside);
-    };
-  }, [showMobileVolume]);
 
   const handleSeekbarClick = (e) => {
     if (!seekbarRef.current || duration <= 0) return;
@@ -146,29 +128,6 @@ export function PlayerBar({
             {repeatMode === 'one' && <span className="repeat-badge">1</span>}
           </button>
 
-          <div className="mobile-vol-wrapper" ref={volumePopoverRef}>
-            <button
-              className={`control-btn mobile-vol-trigger ${showMobileVolume ? 'active' : ''}`}
-              onClick={() => setShowMobileVolume(prev => !prev)}
-              title="Âm lượng"
-            >
-              {isMuted || volume === 0 ? <VolumeX size={17} /> : <Volume2 size={17} />}
-            </button>
-
-            {showMobileVolume && (
-              <div className="mobile-volume-popover">
-                <input
-                  type="range"
-                  className="vol-slider mobile-vol-slider"
-                  min="0"
-                  max="1"
-                  step="0.01"
-                  value={isMuted ? 0 : volume}
-                  onChange={(e) => onSetVolume(parseFloat(e.target.value))}
-                />
-              </div>
-            )}
-          </div>
         </div>
 
         <div className="progress-bar-row">

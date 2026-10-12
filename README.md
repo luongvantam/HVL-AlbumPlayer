@@ -27,7 +27,7 @@ Giao diện ứng dụng được thiết kế tối giản mang phong cách dar
 - **Trình xem MV**:
   - Nhấp chuột hoặc chạm 1 lần vào màn hình video để **Ẩn / Hiện** thanh điều khiển.
   - Nhấp đúp (Double-tap) nửa trái màn hình để lùi 10s hoặc nửa phải để tiến 10s.
-  - Bấm nút danh sách MV ở góc trên để chọn nhanh 6 MV chính thức.
+  - Bấm nút danh sách MV ở góc trên để chọn nhanh 8 MV chính thức (bao gồm Album Trailer).
   - Khi MV kết thúc, hệ thống sẽ đếm ngược 3 giây và tự động chuyển sang MV tiếp theo.
 
 ### Bảng Phím Tắt

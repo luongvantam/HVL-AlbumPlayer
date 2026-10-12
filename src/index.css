@@ -399,11 +399,11 @@ button {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  gap: 22px;
-  padding: 160px 0;
+  gap: 24px;
+  padding: 160px 0 240px 0;
   scroll-behavior: smooth;
-  mask-image: linear-gradient(to bottom, transparent 0%, black 14%, black 86%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 14%, black 86%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 6%, black 16%, black 82%, rgba(0, 0, 0, 0.4) 94%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 6%, black 16%, black 82%, rgba(0, 0, 0, 0.4) 94%, transparent 100%);
   transform: translateZ(0);
   width: 100%;
   max-width: 100%;
@@ -416,14 +416,14 @@ button {
 }
 
 .lyric-line {
-  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  font-size: clamp(1.35rem, 2.3vw, 1.85rem);
   line-height: 1.45;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.32);
   cursor: pointer;
-  transition: color 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease, transform 0.15s ease;
-  padding: 4px 0;
-  letter-spacing: -0.01em;
+  transition: color 0.35s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.35s cubic-bezier(0.25, 1, 0.5, 1), text-shadow 0.35s ease, filter 0.35s ease;
+  padding: 6px 0;
+  letter-spacing: -0.015em;
   width: 100%;
   max-width: 100%;
   white-space: normal;
@@ -431,31 +431,34 @@ button {
   overflow-wrap: break-word;
   box-sizing: border-box;
   transform: none;
+  filter: blur(0.25px);
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.08);
   touch-action: manipulation;
   outline: none;
+  user-select: text;
 }
 
 .lyric-line:hover {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.85);
+  filter: none;
 }
 
 .lyric-line:active {
-  transform: scale(0.99);
-  color: #ffffff;
+  opacity: 0.8;
 }
 
 .lyric-line.active {
-  font-size: clamp(1.35rem, 2.3vw, 1.75rem);
-  font-weight: 800;
+  /* Giữ nguyên font-size và font-weight để text 100% cố định, không giật hay bóp méo layout */
   color: #ffffff;
   opacity: 1;
-  text-shadow: 0 0 22px rgba(255, 255, 255, 0.45);
+  filter: none;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.45), 0 0 45px rgba(255, 255, 255, 0.2);
   transform: none;
 }
 
 .lyric-line.passed {
-  color: var(--text-dim);
+  color: rgba(255, 255, 255, 0.4);
+  filter: blur(0.15px);
 }
 
 .lyric-line.intro-line {
@@ -605,6 +608,26 @@ button {
 
 .media-box:hover .cover-img {
   transform: scale(1.02);
+}
+
+/* Track 0: Continuous 360° Rotating MV Background */
+.bg-360-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+  overflow: hidden;
+  background: #000;
+  pointer-events: none;
+}
+
+.bg-360-canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  pointer-events: none;
+  filter: brightness(0.88) contrast(1.06);
 }
 
 /* N0L4B3L XEM MV Button */
@@ -859,9 +882,6 @@ button {
   color: #fff;
 }
 
-.mobile-vol-wrapper {
-  display: none;
-}
 
 /* Progress bar row */
 .progress-bar-row {
@@ -2443,16 +2463,16 @@ button {
   }
 
   .lyrics-container {
-    padding: 80px 0;
+    padding: 90px 12px 180px 12px;
     gap: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
     box-sizing: border-box;
   }
 
   .lyric-line {
-    font-size: 1.2rem;
+    font-size: clamp(1.15rem, 4.5vw, 1.35rem);
     text-align: center;
+    font-weight: 700;
+    line-height: 1.45;
     max-width: 100%;
     width: 100%;
     white-space: normal;
@@ -2462,7 +2482,7 @@ button {
   }
 
   .lyric-line.active {
-    font-size: 1.45rem;
+    font-size: inherit;
     transform: none;
   }
 
@@ -2491,66 +2511,4 @@ button {
     width: 100%;
   }
 
-  /* Mobile Volume button placed directly inside controls-row */
-  .mobile-vol-wrapper {
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .mobile-vol-trigger {
-    width: 32px;
-    height: 32px;
-    color: var(--text-secondary);
-    border-radius: var(--radius-sm);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .mobile-vol-trigger:hover,
-  .mobile-vol-trigger.active {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.1);
-  }
-
-  /* Mobile Floating Volume Popover Centered directly above volume button */
-  .mobile-volume-popover {
-    position: absolute;
-    bottom: 44px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(15, 15, 15, 0.96);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border: 1px solid var(--border-subtle);
-    border-radius: var(--radius-sm);
-    padding: 10px 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85);
-    z-index: 100;
-    animation: popoverFadeIn 0.15s ease-out;
-  }
-
-  .mobile-vol-slider {
-    width: 100px;
-    height: 4px;
-    accent-color: var(--accent-red);
-    cursor: pointer;
-  }
-}
-
-@keyframes popoverFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }

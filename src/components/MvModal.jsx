@@ -677,6 +677,7 @@ export function MvModal({ isOpen, track, tracks = [], onSelectTrack, onClose }) 
         </div>
 
         {/* Bottom YouTube Controls Bar */}
+        {track.id !== 0 && (
         <footer 
           className="yt-bottom-bar"
           onClick={(e) => e.stopPropagation()}
@@ -795,6 +796,7 @@ export function MvModal({ isOpen, track, tracks = [], onSelectTrack, onClose }) 
           </div>
 
         </footer>
+        )}
 
       </div>
 

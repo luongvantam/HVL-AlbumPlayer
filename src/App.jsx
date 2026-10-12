@@ -5,6 +5,7 @@ import { CoverPanel } from './components/CoverPanel';
 import { PlayerBar } from './components/PlayerBar';
 import { PlaylistDrawer } from './components/PlaylistDrawer';
 import { MvModal } from './components/MvModal';
+import { Background360 } from './components/Background360';
 import { useAudioPlayer } from './hooks/useAudioPlayer';
 import { useUrlSync } from './hooks/useUrlSync';
 
@@ -59,7 +60,7 @@ export function App() {
   }, [reloadLyrics]);
 
   useEffect(() => {
-    if (currentTrack?.id) {
+    if (currentTrack?.id != null) {
       reloadLyrics();
     }
   }, [currentTrack?.id, reloadLyrics]);
@@ -204,12 +205,21 @@ export function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [player]);
 
+  const isTrack0 = currentTrack?.trackNumber === 0 || currentTrack?.id === 0;
+
   return (
     <div className="app-container">
-      <div
-        className={`bg-cover ${coverScaleClass}`}
-        style={{ backgroundImage: `url(${currentTrack?.coverUrl || '/assets/cover.jpg'})` }}
-      />
+      {isTrack0 ? (
+        <Background360
+          isPlaying={player.isPlaying}
+          currentTime={player.currentTime}
+        />
+      ) : (
+        <div
+          className={`bg-cover ${coverScaleClass}`}
+          style={{ backgroundImage: `url(${currentTrack?.coverUrl || '/assets/cover.jpg'})` }}
+        />
+      )}
       <div className="bg-overlay" />
 
       <Header onOpenPlaylist={() => setIsPlaylistOpen(true)} />

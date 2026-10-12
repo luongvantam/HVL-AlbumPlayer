@@ -5,14 +5,16 @@ import { ScrollingText } from './ScrollingText';
 export function CoverPanel({ currentTrack, onOpenMv }) {
   if (!currentTrack) return null;
 
+  const isTrack0 = currentTrack.trackNumber === 0 || currentTrack.id === 0;
+
   return (
     <section className="player-card-section">
       <div className="cover-card n0l4b3l-card">
         
         <div className="media-box">
           <img
-            src="/assets/cover.jpg"
-            alt="Album Cover HVL - RPT MCK"
+            src={isTrack0 ? (currentTrack.coverUrl || '/artwork/Track00.webp') : '/assets/cover.jpg'}
+            alt={isTrack0 ? 'Track 00 - HVL' : 'Album Cover HVL - RPT MCK'}
             className="cover-img"
           />
         </div>
@@ -20,9 +22,11 @@ export function CoverPanel({ currentTrack, onOpenMv }) {
         <div className="song-meta">
           <div className="track-tag-row">
             <span className="track-number-label">
-              TRACK {String(currentTrack.trackNumber).padStart(2, '0')} / 30
+              {currentTrack.trackNumber === 0
+                ? 'TRACK 00 / TRAILER'
+                : `TRACK ${String(currentTrack.trackNumber).padStart(2, '0')} / 30`}
             </span>
-            {currentTrack.video && (
+            {currentTrack.video && !isTrack0 && (
               <button
                 className="video-mode-chip n0l4b3l-btn hide-mobile"
                 onClick={onOpenMv}
@@ -38,7 +42,7 @@ export function CoverPanel({ currentTrack, onOpenMv }) {
           <p className="song-artist">{currentTrack.artist}</p>
         </div>
 
-        {currentTrack.video && (
+        {currentTrack.video && !isTrack0 && (
           <button
             className="mobile-cover-mv-btn"
             onClick={onOpenMv}

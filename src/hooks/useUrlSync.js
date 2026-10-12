@@ -22,7 +22,8 @@ export function useUrlSync(tracks, onSelectTrack, onToggleMv) {
       }
     } else {
       if (!initialLoaded) {
-        onSelectTrack(tracks[0], false);
+        const defaultTrack = tracks.find(t => t.id === 1) || tracks[0];
+        onSelectTrack(defaultTrack, false);
       }
     }
   }, [tracks, initialLoaded, onSelectTrack, onToggleMv]);

@@ -37,7 +37,8 @@ export function LyricsPanel({ lyrics, currentTime, onSeek }) {
     const containerHeight = container.clientHeight;
     const elTop = targetEl.offsetTop;
     const elHeight = targetEl.clientHeight;
-    const targetScroll = elTop - (containerHeight / 2) + (elHeight / 2);
+    // Giữ dòng đang hát ở vị trí ~38% chiều cao container (chuẩn Spotify) để dễ nhìn các câu tiếp theo bên dưới
+    const targetScroll = elTop - (containerHeight * 0.38) + (elHeight / 2);
 
     container.scrollTo({
       top: Math.max(0, targetScroll),
