@@ -10,6 +10,7 @@ export function Background360({ isPlaying, currentTime }) {
     if (!container) return;
 
     // 1. Create hidden video element
+    const video = document.createElement('video');
     const isLocal = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
     video.src = isLocal
       ? '/mv/Track00_MV.mp4'
